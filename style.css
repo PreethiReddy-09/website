@@ -1,0 +1,224 @@
+body {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: #f7f7f7;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+p {
+    margin: 0px;
+}
+
+header {
+    overflow: hidden;         
+    font-size: 20px;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+header .logo {
+    float: left;   
+}
+
+header a {
+    float: right;             
+    display: block;           
+    color: #000000;          
+    text-align: center;       
+    padding: 14px 16px;       
+    text-decoration: none; 
+}
+
+.title {
+    font-size: 25px;
+    margin: 25px 0px 20px 0px;
+    text-align: left;
+}
+
+main {
+    margin: 10px 200px;
+}
+
+.container {
+    margin: 20px;
+}
+
+
+.profile {
+    float: left; /* Float profile to the left */
+    margin-right: 20px; /* Space between image and text */
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 15px; 
+}
+
+.profile .text {
+    margin-top: 13px; 
+    font-size: 16px; 
+}
+
+.about {
+    overflow: hidden; /* Clear floats */
+}
+
+.about h3 {
+    font-size: 20px;
+    margin-top: 10;
+}
+
+.about p {
+    font-size: 19px;   
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+#about-skills {
+    font-size: 15px;   
+    line-height: 30px;
+}
+.project { 
+    width: 30.7%;
+    padding: 20px;
+    display: inline-block;
+    background-color: #ee2f6b30;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+.project:last-child {
+    margin-right: 0;
+}
+
+.project-content {
+    overflow: hidden;
+}
+
+.project-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    float: left;
+    margin-right: 15px;
+}
+
+.project-name {
+    font-size: 20px;    
+}
+
+.project-description {
+    font-size: 18px;   
+    line-height: 25px;
+    margin: 15px 0px;
+    text-align: left;
+}
+
+.project-learn-more {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 6px;
+    background-color: #000000;
+    color: #ffffffa0;
+    font-size: 20px;
+}
+
+.company { 
+    background-color: #f4f3f4;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    
+}
+
+.company-content {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.company-description {
+    font-size: 19px;   
+    line-height: 25px;
+}
+
+.school { 
+    padding: 25px;
+    background-color: #f4d3f6;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.school-image {
+    width: 125px;
+    height: 125px;
+    border-radius: 90px;
+    float: left;
+    margin-right: 20px;
+}
+
+.school-name {
+    font-size: 30px;  
+    margin-bottom: 15px; 
+}
+
+.school-description {
+    font-size: 20px;   
+    line-height: 25px;
+}
+
+.blog {
+    width: 30.7%;
+    display: inline-block;
+    background-color: #ed7676;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.blog:last-child {
+    margin-right: 0;
+}
+
+.blog-image {
+    display: block;
+    height: 90px;
+    width: 80px;
+}
+
+.blog-title {
+    font-size: 19px;
+    margin: 20px;
+}
+
+.blog-content {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 10px 20px 20px 20px;
+}
+
+#contact-container {
+    text-align: center;
+    padding: 30px 0 60px 0; 
+}
+
+.image-row {
+    text-align: center; 
+}
+
+.contact-image {
+    height: 30px;    
+    width: 30px; 
+    padding: 0 5px; 
+}
